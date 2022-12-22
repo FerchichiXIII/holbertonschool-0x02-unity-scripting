@@ -1,11 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 1500;
-    public Rigidbody rb ;
+    public float speed = 1500f;
+    public Rigidbody rb;
+    private int score = 0;
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Pickup")
+        {
+            score += 1;
+            Debug.Log($"Score: {score}");
+            Destroy(other.gameObject);
+        }
+    }
     void Start()
     {
         rb = GetComponent<Rigidbody>();
