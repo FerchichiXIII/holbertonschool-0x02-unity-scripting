@@ -5707,7 +5707,7 @@ PrefabInstance:
     - target: {fileID: 7571566496167589923, guid: e82695ad3d9ec6b46aa590c3b83a9783,
         type: 3}
       propertyPath: m_Name
-      value: coin
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e82695ad3d9ec6b46aa590c3b83a9783, type: 3}
