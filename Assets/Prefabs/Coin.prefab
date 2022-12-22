@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3067113403675803578}
   - component: {fileID: 751225562898267436}
   m_Layer: 0
-  m_Name: coin
+  m_Name: Coin
   m_TagString: Pickup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
