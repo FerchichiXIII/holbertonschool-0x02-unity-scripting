@@ -7108,6 +7108,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Trap
       objectReference: {fileID: 0}
+    - target: {fileID: 2395387447331442003, guid: 83fa2812f68cdb943aaa9c4ee20556c5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4817529088405145116, guid: 83fa2812f68cdb943aaa9c4ee20556c5,
         type: 3}
       propertyPath: m_RootOrder
