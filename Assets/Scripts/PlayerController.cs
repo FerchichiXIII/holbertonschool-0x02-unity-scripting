@@ -41,4 +41,12 @@ public class PlayerController : MonoBehaviour
         Vector3 force = dir * speed * Time.deltaTime;
         rb.AddForce(force);
     }
+    void Update()
+    {
+        if (health == 0)
+        {
+            Debug.Log("Game Over!");
+            SceneManager.LoadScene(0, LoadSceneMode.Single);
+        }
+    }
 }
